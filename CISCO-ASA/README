@@ -1,0 +1,9 @@
+cisco-asa.conf
+Sample logstash config file for ASA logs
+Just put it on your /etc/logstash/conf.d directory
+
+Kibana3-Cisco-ASA
+Sample Kibana3 exported schema. You should import it via the kibana 3 import from local file feature (load>advanced>local file).
+
+Dashboard-ASA.png
+Screenshot of the kibana3 dashboard
