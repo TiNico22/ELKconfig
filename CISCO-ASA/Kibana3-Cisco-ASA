@@ -1,5 +1,5 @@
 {
-  "title": "Cisco ASA 3",
+  "title": "Cisco_ASA",
   "services": {
     "query": {
       "list": {
@@ -28,20 +28,10 @@
           "active": true,
           "alias": "",
           "id": 0
-        },
-        "1": {
-          "type": "field",
-          "field": "type",
-          "query": "\"asa\"",
-          "mandate": "must",
-          "active": true,
-          "alias": "",
-          "id": 1
         }
       },
       "ids": [
-        0,
-        1
+        0
       ]
     }
   },
@@ -519,7 +509,7 @@
   "failover": false,
   "index": {
     "interval": "day",
-    "pattern": "[logstash-]YYYY.MM.DD",
+    "pattern": "[asa-]YYYY.MM.DD",
     "default": "NO_TIME_FILTER_OR_INDEX_PATTERN_NOT_MATCHED",
     "warm_fields": true
   },
@@ -528,7 +518,7 @@
   "pulldowns": [
     {
       "type": "query",
-      "collapse": false,
+      "collapse": true,
       "notice": false,
       "query": "*",
       "pinned": true,
