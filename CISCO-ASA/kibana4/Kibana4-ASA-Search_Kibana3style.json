@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "ASA",
+    "_type": "search",
+    "_source": {
+      "title": "ASA",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src_ip",
+        "src_xlated_ip",
+        "dst_ip",
+        "dst_port",
+        "src_interface",
+        "dst_interface",
+        "action"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"asa-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[]}"
+      }
+    }
+  }
+]

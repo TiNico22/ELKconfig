@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "ASA-Kibana3-Style",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ASA Kibana3 Style",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"ASA-Timeline\",\"row\":1,\"size_x\":7,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"src_ip\",\"src_xlated_ip\",\"dst_ip\",\"dst_port\",\"protocol\",\"src_interface\",\"dst_interface\",\"action\"],\"id\":\"ASA\",\"row\":6,\"size_x\":12,\"size_y\":5,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":3,\"id\":\"ASA-TOP-DST\",\"row\":3,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ASA-TOP-SRC\",\"row\":3,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"ASA-LAST-DST\",\"row\":3,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"col\":8,\"id\":\"ASA-Action\",\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":11,\"id\":\"ASA-Protocol\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"ASA-DST-INTERFACES\",\"row\":3,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ASA-SRC-INTERFACES\",\"row\":3,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"id\":\"ASA-TOP-DST-Country\",\"type\":\"visualization\",\"size_x\":2,\"size_y\":3,\"col\":11,\"row\":3}]",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
