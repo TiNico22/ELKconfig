@@ -1,4 +1,4 @@
-To import object in Kibana 4 :
+To import objects in Kibana 4 :
 Goto "Settings" tab
 Select "Objects" tab
 Select "Import" button and browse your drive for json files to import
