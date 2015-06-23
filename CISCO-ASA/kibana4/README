@@ -2,3 +2,5 @@ To import objects in Kibana 4 :
 Goto "Settings" tab
 Select "Objects" tab
 Select "Import" button and browse your drive for json files to import
+
+A blog post is available at http://secmonthoughts.blogspot.fr/2015/06/monitoring-asa-log-with-elk-part-2.html
